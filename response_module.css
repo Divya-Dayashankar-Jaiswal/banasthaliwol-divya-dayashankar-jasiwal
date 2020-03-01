@@ -1,0 +1,40 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .progress-modal-wrapper h3,h5 {
+    font-size: 32px;
+  }
+
+  .modal {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .progress-modal-wrapper {
+    text-align: left;
+  }
+
+  .progress-modal-wrapper h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .progress-modal-wrapper h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
