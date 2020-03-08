@@ -21,6 +21,7 @@ div {
 
 body {
   font-family: "Lucida Grande";
+  background-color: #999999;
 }
 
 a {
@@ -52,7 +53,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .header-left {
@@ -111,29 +112,41 @@ header {
 }
 
 .lesson {
-  margin-left: 80px;
-  width: 25%;
+  float: left;
+  width: 50%;
 }
 
 .lesson-icon {
   position: relative;
+  top: 20%;
+  left: 24%;
+  padding: 20px 0px 30px;
+  margin: 20px 40px;
   margin-top: 100px;
+  cursor: pointer;
 }
 
 .lesson-icon p {
   position: absolute;
-  top: 54%;
-  left: 10%;
+  top: 44%;
+  padding-left: 30px;
   width: 100%;
   color: white;
+  font-weight: bold;
+  font-family: cursive;
 }
 
 .text-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 50px;
-  font-size: 15px;
-  color: #b3aeb5;
+  margin: 15px 40px;
+  padding-left: 30px;
+  padding-right: 15px;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .heading h3 {
@@ -141,23 +154,26 @@ header {
 }
 
 .border-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 650px;
+  border-bottom: 1px solid #000;
+  padding-bottom:520px;
 
 }
 
 footer img {
   width: 125px;
+  margin-bottom: 5px;
 }
 
 footer p {
   color: #b3aeb5;
-  font-size: 12px;
+  font-size: 16px;
+  font-family: monospace;
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(218, 247, 166, 0.9);
 }
 
 .menu-icon {

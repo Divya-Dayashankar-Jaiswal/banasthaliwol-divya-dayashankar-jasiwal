@@ -21,6 +21,7 @@ div {
 
 body {
   font-family: "Lucida Grande";
+  background-color: rgba(218, 247, 166, 0.9);
 }
 
 a {
@@ -39,10 +40,10 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGxRczAzlmmef92EZduBxLrobaEjHAX4956suYG3vzz-xMqwUm);
   background-size: cover;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .top-wrapper h1 {
@@ -58,7 +59,7 @@ a {
 }
 
 .btn-wrapper {
-  text-align: center;
+  text-align: left;
   margin: 20px 0;
 }
 
@@ -107,7 +108,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .header-left {
@@ -206,7 +207,7 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #999999;
   text-align: center;
 }
 
@@ -218,6 +219,12 @@ header {
 
 .heading h2 {
   font-weight: normal;
+  color: #FF5733;
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-family: inherit;
+  font-size: 44px;
+  text-decoration: underline;
 }
 
 .lesson {
@@ -227,6 +234,7 @@ header {
 
 .lesson-icon {
   position: relative;
+  cursor: pointer;
 }
 
 .lesson-icon p {
@@ -234,22 +242,28 @@ header {
   top: 44%;
   width: 100%;
   color: white;
+  font-weight: bold;
+  font-family: cursive;
 }
 
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+  font-size: 20px;
+  color: 	#FFFFFF;
+  font-style: italic;
+  font-family: sans-serif;
 }
 
 .heading h3 {
   font-weight: normal;
+  font-family: monospace;
+  font-size: 32px;
 }
 
 .message-wrapper {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #000;
   padding-bottom: 80px;
   text-align: center;
 }
@@ -269,11 +283,13 @@ header {
 
 footer img {
   width: 125px;
+  margin-bottom: 5px;
 }
 
 footer p {
   color: #b3aeb5;
-  font-size: 12px;
+  font-size: 16px;
+  font-family: monospace;
 }
 
 footer {

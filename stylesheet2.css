@@ -21,6 +21,7 @@ div {
 
 body {
   font-family: "Lucida Grande";
+  background-color: #999999;
 }
 
 a {
@@ -44,7 +45,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: #000000;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -52,7 +53,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .header-left {
@@ -77,33 +78,83 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+
+.modules {
+  margin: 60px 40px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.modules p, ul {
+  font-size: 28px;
+  font-weight: normal;
+  color: white;
+  font-family: sans-serif;
+}
+
+.example {
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+.next {
+  position: absolute;
+  bottom: 85%;
+  left: 90%;
+  font-size: 25px;
+  font-family: serif;
+  font-style: italic;
+}
 /* Modal  */
 /* Modal is not visible by default. Modal become visible by changing the display property */
-.signup-modal-wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 100;
-}
 
 .modal {
   position: absolute;
-  top: 20%;
-  left: 34%;
-  background-color: #e6ecf0;
-  padding: 20px 0 40px;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  background-color: rgba(246, 49, 7, 0.4);
+  padding: 20px 0px 30px;
   border-radius: 10px;
-  width: 450px;
-  height: auto;
+  height: 60%;
   text-align: center;
 }
 
+.modal h3{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 44px;
+  font-family: monospace;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.lesson {
+  padding-bottom: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+  font-family: cursive;
+  color: #18F127;
+}
+
+#module {
+  position: absolute;
+  left: 50%;
+}
+
+.lab label {
+  position: absolute;
+  left: 83%;
+  color: white;
+}
+
+
 .fa-times {
   position: absolute;
-
   top: 12px;
   right: 12px;
   color: rgba(128, 128, 128, 0.46);
@@ -121,7 +172,9 @@ header {
 }
 
 #register-form h2 {
-  color: #5f5d60;
+  color: #000000;
+  font-weight: bold;
+  font-size: 44px;
   letter-spacing: 1px;
   margin-bottom: 40px;
 }
@@ -147,21 +200,23 @@ header {
 }
 
 .border-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 650px;
-
+  border-bottom: 1px solid #000;
+  padding-bottom: 700px;
 }
 
 footer img {
   width: 125px;
+  margin-bottom: 5px;
 }
 
 footer p {
   color: #b3aeb5;
-  font-size: 12px;
+  font-size: 16px;
+  font-family: monospace;
 }
 
 footer {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: rgba(218, 247, 166, 0.9);
 }
